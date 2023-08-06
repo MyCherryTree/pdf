@@ -18,6 +18,8 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "开始"
       - run: tree >./tree.html
+      - run: cat ./tree.html
+      - run: tree >>./a.html
       - run: pwd
       - run: ls
       - run: echo "结束"
