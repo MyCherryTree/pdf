@@ -17,5 +17,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "开始"
-      - run: tree >tree.txt
+      - run: tree >./tree.txt
+      - run: pwd
       - run: echo "结束"
