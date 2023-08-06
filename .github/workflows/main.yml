@@ -19,4 +19,5 @@ jobs:
       - run: echo "开始"
       - run: tree >./tree.txt
       - run: pwd
+      - run: find / -name "tree.txt"
       - run: echo "结束"
